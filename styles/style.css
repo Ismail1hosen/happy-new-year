@@ -14,8 +14,7 @@
 
 }
 .banner{
-    left: 845px;
-    top: 216px;
+   
     width: 625px;
     height: 228px;
     text-align: right;
@@ -50,9 +49,9 @@
 /* Failures section styles */
 .my-failures-overviwe{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: center; */
     align-items: center;
-    margin-left: 190px;
+    margin-left: 165px;
     margin-top: 100px;
     
 
@@ -89,7 +88,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 190px;
+    margin-left: 165px;
     margin-top: 100px;
     /* background-color: #efe8e881; */
 
@@ -135,20 +134,19 @@
 .my-plans-overviwe{
     display: flex;
     justify-content: center;
-    gap: 124px;
-    padding-left: 50px;
+    gap: 120px;
+    /* padding-left: 50px; */
 
 }
 .plans{  
     text-align: center;
-    padding: 30px; 
+    
 }
 .plans-title{
     
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-    text-align: center;
     padding: 20px 0 10px 0;
 }
 .plans-description{
@@ -165,11 +163,13 @@
     height: 300px;
 }
 .contact-overviwe .contact{
-    margin: 100px 280px;
+    width: 459px;
+    height: 182px;
+    margin: 100px 270px;
     padding-top: 60px;
 }
 .contact-title{
-    width: 459px;
+   
     font-weight: 700;
     line-height: 47px;
     font-size: 40px;
@@ -191,13 +191,13 @@
 
 .footer-overviwe{
     display: flex;
-    gap: 310;
+    gap: 250px;
     justify-content: space-around;
     margin-top: 100px;
     background: #151414;
     height: 500px;
     padding-top: 150px;
-    /* align-items: center; */
+    
 }
 .footer-future{
     width: 490px;
