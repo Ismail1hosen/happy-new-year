@@ -10,7 +10,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    /* background-size: cover; */
+
 
 }
 .banner{
@@ -54,7 +54,7 @@
     align-items: center;
     margin-left: 190px;
     margin-top: 100px;
-    /* background-color: #efe8e881; */
+    
 
 }
 .failures{
