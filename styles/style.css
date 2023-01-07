@@ -139,7 +139,7 @@
     padding-left: 50px;
 
 }
-.plans{
+.plans{  
     text-align: center;
     padding: 30px; 
 }
@@ -149,10 +149,20 @@
     font-size: 30px;
     line-height: 35px;
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 10px 0;
 }
 .plans-description{
     color: #757575;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* contact section styles */
+.contact-overviwe{
+    background: url('../images/watch.png');
+    /* height: 300px; */
+
+    
+
 }
 
 
