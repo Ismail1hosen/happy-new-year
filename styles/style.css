@@ -158,11 +158,121 @@
 }
 /* contact section styles */
 .contact-overviwe{
-    background: url('../images/watch.png');
-    /* height: 300px; */
-
+    background: url('../images/gradient2.png') center , url('../images/watch.png') center ;
+    background-repeat: no-repeat;
     
 
+    height: 300px;
 }
+.contact-overviwe .contact{
+    margin: 100px 280px;
+    padding-top: 60px;
+}
+.contact-title{
+    width: 459px;
+    font-weight: 700;
+    line-height: 47px;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+.contact-btn{
+    color: #F15B22;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 10px; 
+
+}
+/* footer section start */
+
+.footer-overviwe{
+    display: flex;
+    gap: 310;
+    justify-content: space-around;
+    margin-top: 100px;
+    background: #151414;
+    height: 500px;
+    padding-top: 150px;
+    /* align-items: center; */
+}
+.footer-future{
+    width: 490px;
+    color: #F8F8F8;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    padding-bottom: 17px;
+}
+.footer-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 25px;
+}
+.email{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 16px;
+
+}
+
+.phone-number{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.icons-overviwe{
+    display: flex;
+    gap: 18px;
+    padding-top: 30px;
+}
+.footer-subscribe{
+    width: 330px;
+}
+.footer-subscriber{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    padding-bottom: 30px;
+}
+
+.input input {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    width: 300px;
+    height: 64px;
+    background: none;
+    border: #F3F3F3 solid ;
+    border-radius: 10px;
+      
+}
+
+
+.subscribe-btn{
+    color: #FD6E0A;
+    font-weight: 600;
+    font-size: 20px;
+    width: 170px;
+    height: 64px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 10px; 
+    margin-top: 15px;
+
+}
+
+
 
 
