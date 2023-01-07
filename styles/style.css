@@ -52,33 +52,107 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 1070px;
-    height: 723px; */
     margin-left: 190px;
     margin-top: 100px;
+    /* background-color: #efe8e881; */
 
 }
 .failures{
     width: 416px;
-    /* height: 400px; */
-    padding: 25px 140px 5px 140px;
+    height: 400px; 
+    padding: 0px 140px 0px 140px;
 }
 .failures-title{
     color: #151414;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
+    padding-bottom: 10px;
 }
 .failures-description{
     color: #444343;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    padding-bottom: 10px;
 }
 .failures-list .list-description{
-    list-style-image: url('/images/');
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+   
+}
+/* style of achiving section */
+
+.my-achive-overviwe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 190px;
+    margin-top: 100px;
+    /* background-color: #efe8e881; */
+
+}
+.achive{
+    width: 416px;
+    height: 400px; 
+    padding: 0px 140px 0px 140px;
+}
+.achive-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 10px;
+}
+.achive-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+.achive-list .list-description{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    list-style-type: square;
+   
 }
 
-/* .my-failures-overviwe img{
-    background: rgba(241, 91, 34, 0.2);
-} */
+/* Starting plans section */
+
+.main-plans-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.my-plans-overviwe{
+    display: flex;
+    justify-content: center;
+    gap: 124px;
+    padding-left: 50px;
+
+}
+.plans{
+    text-align: center;
+    padding: 30px; 
+}
+.plans-title{
+    
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.plans-description{
+    color: #757575;
+}
+
+
